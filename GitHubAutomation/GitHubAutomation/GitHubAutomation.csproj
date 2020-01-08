@@ -116,6 +116,7 @@
     <None Include="ConfigFiles\dev.config" />
     <None Include="ConfigFiles\qa.config" />
     <None Include="packages.config" />
+    <None Include="web.config" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
