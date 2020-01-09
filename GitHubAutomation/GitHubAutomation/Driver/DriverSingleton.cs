@@ -26,7 +26,7 @@ namespace GitHubAutomation.Driver
                         break;
                     default:
                         new DriverManager().SetUpDriver(new ChromeConfig());
-                        ChromeOptions options = new ChromeOptions();
+                        //ChromeOptions options = new ChromeOptions();
                         //options.AddArgument("--user-agent=Mozilla/5.0 (compatible; MJ12bot/v1.4.5; http://www.majestic12.co.uk/bot.php?+)");
                         //Driver = new ChromeDriver(options);
 
